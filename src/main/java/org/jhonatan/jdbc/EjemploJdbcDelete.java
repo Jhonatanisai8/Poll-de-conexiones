@@ -1,9 +1,4 @@
 package org.jhonatan.jdbc;
-
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.jhonatan.jdbc.modelo.Producto;
 import org.jhonatan.jdbc.modelo.repositorio.ProductoRepositorioImpl;
 import org.jhonatan.jdbc.modelo.repositorio.Repositorio;

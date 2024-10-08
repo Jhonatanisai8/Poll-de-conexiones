@@ -1,11 +1,6 @@
 package org.jhonatan.jdbc.modelo.repositorio;
 
-import java.sql.Connection;
-import java.sql.Date;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import org.jhonatan.jdbc.modelo.Categoria;
@@ -16,7 +11,7 @@ public class ProductoRepositorioImpl
         implements Repositorio<Producto> {
 
     private Connection getConection() throws SQLException {
-        return ConexionBaseDatos.getInstance();
+        return ConexionBaseDatos.getConnection();
     }
 
     @Override

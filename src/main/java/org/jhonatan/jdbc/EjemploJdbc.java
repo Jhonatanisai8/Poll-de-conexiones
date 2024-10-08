@@ -1,9 +1,6 @@
 package org.jhonatan.jdbc;
 
-import java.sql.SQLException;
 import java.util.Date;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.jhonatan.jdbc.modelo.Categoria;
 import org.jhonatan.jdbc.modelo.Producto;
 import org.jhonatan.jdbc.modelo.repositorio.ProductoRepositorioImpl;
@@ -23,8 +20,8 @@ public class EjemploJdbc {
 
         System.out.println("\t========CREAR UN OBJETO========");
         Producto p = new Producto();
-        p.setNombre("Notebook Asus ROG");
-        p.setPrecio(2500);
+        p.setNombre("Notebook Omen HP");
+        p.setPrecio(4500);
         p.setFechaRegistro(new Date());
 
         //creamos una categoria
